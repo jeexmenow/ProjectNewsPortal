@@ -1,0 +1,1 @@
+WARNING 2024-04-05 22:08:34,592 log  Forbidden (CSRF token from POST incorrect.): /accounts/login/

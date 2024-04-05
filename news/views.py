@@ -12,6 +12,7 @@ from django.contrib.auth.mixins import PermissionRequiredMixin, PermissionDenied
 from django.views.generic.edit import CreateView
 from django.http import HttpResponse
 from django.views import View
+from django.views.decorators.cache import cache_page
 
 class PostsList(ListView):
     model = Post
